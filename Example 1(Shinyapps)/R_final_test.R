@@ -48,7 +48,7 @@ ui <- fluidPage(
       uiOutput("resultado_media"),
       numericInput("respuesta_sd", "What is the standard deviation (rounded to three decimals) of the standarized data?", value = NA),
       uiOutput("resultado_sd"),
-      actionButton("calificar", "Grade"),
+      actionButton("calificar", "SUBMIT"),
       textOutput("score")
     )
   )
