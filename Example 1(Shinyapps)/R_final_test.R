@@ -84,7 +84,7 @@ server <- function(input, output, session) {
   
   output$instructions <- renderUI({
     instrucciones <- htmltools::HTML(paste0("
-      <p>To verify the Central Limit Theorem (CLT), consider a set of \\( m \\) independent samples, each of size \\( n \\), drawn from any distribution with finite mean \\( \\mu \\) and positive finite variance \\( \\sigma^2 > 0 \\). The simulation procedure is described as follows:</p>
+      <p>To verify the Central Limit Theorem (CLT) by simulation, consider a set of \\( m \\) independent samples, each of size \\( n \\), drawn from any distribution with finite mean \\( \\mu \\) and positive finite variance \\( \\sigma^2 > 0 \\). The simulation procedure is described as follows:</p>
       <ol>
         <li>We fix \\( n \\in \\mathbb{N} \\) as the sample size and \\( m \\in \\mathbb{N} \\) as the number of samples.</li>
         <li>For each sample \\( i \\) (\\( i = 1, 2, \\ldots, m \\)):
